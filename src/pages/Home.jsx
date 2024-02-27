@@ -3,7 +3,6 @@ import Feature from "../component/Features/Feature";
 import Product from "../pages/Products"
 import Statistic from "../component/Statistic/Statistic";
 import Slider from "../component/Slider";
-import Categorie from "../component/Categorie";
 export default function Home() {
 
 
@@ -52,11 +51,7 @@ export default function Home() {
 
           </div>
         </section>
-        <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              Our Top Products
-            </h1>
-          </div>
+        
       {
         products.length > 0 ?
         <Product products={products}/>

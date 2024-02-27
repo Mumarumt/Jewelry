@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
-      <footer className="text-gray-600 body-font borde border-t-2">
+      <footer className="text-gray-600 body-font borde border-t-2 mx-1">
         <div className="container px-10 py-6 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <Link
@@ -25,7 +25,7 @@ export default function Footer() {
               </svg>
               <span className="ml-3 text-xl hover:text-blue-800">
                 {" "}
-                <Link to="/"> Jewelry Store</Link>
+                <Link to="/">Fancy Jewelry Store</Link>
               </span>
             </Link>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center ">
             <div className="lg:w-1/4 md:w-1/2 w-full  px-6">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                Pages
+                <strong>Pages</strong>
               </h2>
               <nav className="list-none mb-10">
                 <ol>
@@ -70,7 +70,7 @@ export default function Footer() {
               className="mr-5 hover:text-gray-900 hover:scale-110"
               to="/ContactUS"
             >
-              ContactUS
+              <pre>Contact us</pre>
             </Link>
                   </li>
                 </ol>
@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center ">
             <div className="lg:w-1/4 md:w-1/2 w-full  px-6">
               <h2 className="title-font font-medium hover:text-blue-800 tracking-widest text-sm mb-3">
-                Services
+                <strong>Services</strong>
               </h2>
               <nav className="list-none mb-10">
                 <ol>
@@ -122,7 +122,7 @@ export default function Footer() {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center ">
             <div className="lg:w-1/4 md:w-1/2 w-full  px-6">
               <h2 className="title-font font-medium hover:text-blue-800 tracking-widest text-sm mb-3">
-                Categories
+                <strong>Categories</strong>
               </h2>
               <nav className="list-none mb-10">
                 <ol>
@@ -165,12 +165,17 @@ export default function Footer() {
 
 
         <div className="bg-gray-100 ">
-          <div className="container mx-auto py-4 px-5  flex-wrap flex-col sm:flex-row flex justify-center">
-            <p className="
+        
+        <Link to='/'>
+        <div className="container mx-auto py-4 px-5  flex-wrap flex-col sm:flex-row flex justify-center">
+        
+
+          <p className="
             container mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-center text-white items-center bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0">
               © 2023 Jewelry Store @UMT                
             </p>
           </div>
+          </Link>
         </div>
       </footer>
     </div>

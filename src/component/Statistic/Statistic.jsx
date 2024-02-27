@@ -1,21 +1,21 @@
 import React from "react";
 
-const Statistic = () => {
+const   Statistic = () => {
   return (
     <div>
 
         <section className="text-gray-600 body-font">
-        <div  className="flex flex-col text-center w-full mb-20 px-2 py-10">
+        <div  className="flex flex-col text-center w-full mb-20 px-2 py-2">
       <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4  hover: text-blue-800 ">Customer satisfaction</h2>
-            <pre>
-              Customer satisfaction is at the heart of our business. We strive
+            
+              <p>Customer satisfaction is at the heart of our business. We strive
               to provide exceptional customer service,<br /> ensuring that your
               shopping experience is seamless from start to finish. Our
               knowledgeable and friendly<br />support team is available to assist you
               with any queries or concerns you may have.
-            </pre>
-            </div>  
-        <div className="flex flex-wrap -m-4 text-center ">
+              </p>
+              
+        <div className="flex flex-wrap -m-4 text-center mx-1 my-1">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full hover:scale-105">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
                 <svg
@@ -96,7 +96,7 @@ const Statistic = () => {
                 <p className="leading-relaxed">Places</p>
               </div>
             </div>
-          </div>  
+          </div></div>  
 </section>
         
             </div>

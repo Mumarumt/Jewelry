@@ -8,7 +8,7 @@ export default function Product({ products = [] }) {
 
         <div className="container px-5 py-15 mx-auto">
           <div className="e-font sm:text-4xl text-3xl px-2 py-10 mb-4 font-medium hover: text-blue-800 flex justify-center">
-            Wellcome to our Products
+             Top Products
           </div>
         </div>
 
