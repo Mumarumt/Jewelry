@@ -23,9 +23,9 @@ export default function Home() {
       <div>
         <section className="text-gray-600 body-font">
         
-        <div className="flex justify-center px-5"><Slider/>
+        <div className="flex justify-center "><Slider/>
           </div> 
-          <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
+          <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-800">
               WELCOME TO THE JEWELRY STORE 
@@ -38,12 +38,12 @@ export default function Home() {
 
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hover:scale-105">
-              <img
-                className="object-cover object-center rounded"
-                alt="main.jpg"
-                src="main.jpg"
-              />
-            </div>
+            <img
+            className="object-cover object-center rounded"
+            alt="Main"
+            src={process.env.PUBLIC_URL + "/main.jpg"}
+          />
+           </div>
           </div>
           <div className="container px-5 py-10 mx-auto">
  
@@ -56,7 +56,7 @@ export default function Home() {
         products.length > 0 ?
         <Product products={products}/>
         :
-        <div>Lodaing....</div>
+        <div>Loading....</div>
       
       }
 

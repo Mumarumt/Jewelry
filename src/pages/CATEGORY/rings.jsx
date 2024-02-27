@@ -20,22 +20,22 @@ export default function Rings() {
 </div>    
               </div>
 
-  <div className="container mx-auto">
+  <div className="container mx-auto ">
     <div className="flex flex-wrap -m-4 px-5 py-15 mx-auto mb-10">
-    <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+    <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded mb-4">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/images (1).jpeg"} />
         </a>
         
-        <div className="mt-4">
+        <div className="mt-4 ">
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Ring</h3>
           <h2 className="text-gray-900 title-font text-lg font-medium">Neptune</h2>
           <p className="mt-1">$12.00</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded mb-4">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/rich.jpg"} />
         </a>
@@ -45,8 +45,8 @@ export default function Rings() {
           <p className="mt-1">$18.40</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded mb-4">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/rrr.jpg"} />
         </a>
@@ -57,21 +57,21 @@ export default function Rings() {
           <p className="mt-1">$12.00</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded mb-4 ">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/ret.webp"} />
         </a>
-        <div className="mt-4">
-          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Ring</h3>
+        <div className="mt-4 ">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-4">Ring</h3>
           <h2 className="text-gray-900 title-font text-lg font-medium">Blings</h2>
           <p className="mt-1">$18.40</p>
         </div>
       </div>
 
 
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded ">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/remo.jpg"} />
         </a>
@@ -82,8 +82,8 @@ export default function Rings() {
           <p className="mt-1">$12.00</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/huuu.webp"} />
         </a>
@@ -93,8 +93,8 @@ export default function Rings() {
           <p className="mt-1">$18.40</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/6tt.jpg"} />
         </a>
@@ -105,8 +105,8 @@ export default function Rings() {
           <p className="mt-1">$12.00</p>
         </div>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-      <a className="block relative h-48 rounded overflow-hidden hover:scale-110 ">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full border border-collapse rounded">
+      <a className="block relative h-48 rounded overflow-hidden hover:scale-105 ">
           <img alt="cac.png" 
              className="object-cover object-center w-full h-full block"  src={process.env.PUBLIC_URL + "/hor.jpg"} />
         </a>

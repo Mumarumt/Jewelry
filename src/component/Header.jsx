@@ -26,12 +26,13 @@ const Logo = () => (
 // Navigation links component
 const NavLinks = ({ isMenuOpen, closeMenu }) => (
   <nav className={`md:ml-auto md:mr-auto flex flex-col  md:flex-row items-center text-base justify-center md:flex-grow ${isMenuOpen ? 'block' : 'hidden'}`}>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110" to="/" onClick={closeMenu}>Home</Link>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110" to="/services/Custom_Design">CUSTOM DESIGNS</Link>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110"to="/services/Repairs">REPAIRS & SERVICES</Link>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110" to="/services/Valuations">VALUATIONS</Link>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110" to="/About" onClick={closeMenu}>About</Link>
-    <Link className="mr-5 hover:text-gray-900 hover:scale-110" to="/ContactUS" onClick={closeMenu}>ContactUS</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105" to="/" onClick={closeMenu}>Home</Link>
+    <Link className='mr-5 hover:text-gray-900 hover:scale-105'  to="/Product">Products</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105" to="/services/Custom_Design">CUSTOM DESIGNS</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105"to="/services/Repairs">REPAIRS & SERVICES</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105" to="/services/val">VALUATIONS</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105" to="/About" onClick={closeMenu}>About</Link>
+    <Link className="mr-5 hover:text-gray-900 hover:scale-105" to="/ContactUS" onClick={closeMenu}>ContactUS</Link>
   </nav>
 );
 

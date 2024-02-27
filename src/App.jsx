@@ -34,7 +34,7 @@ function App() {
         <Route path="/DynamicProducts" element={<DynamicProducts/>}/>
         <Route path="/services/Custom_Design" element={<Custom_Design/>}/>
         <Route path="/services/Repairs" element={<Repairs/>}/>
-        <Route path="/services/Valutaions" element={<Valutaions/>}/>
+        <Route path="/services/val" element={<Valutaions/>}/>
         <Route path="/Category/Rings" element={<Rings/>}/>
         <Route path="/Category/Earring" element={<Earring/>}/>
         <Route path="/Category/Necklace" element={<Necklace/>}/>

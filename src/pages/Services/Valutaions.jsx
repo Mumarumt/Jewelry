@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 export default function Valutaions() {
   return (
     <>
@@ -21,8 +19,7 @@ export default function Valutaions() {
 />
 
             </div>
-                          <br />
-              <br />
+
 
               <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-800">
@@ -54,14 +51,14 @@ export default function Valutaions() {
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-800">
               INSURANCE CLAIMS
               </h1>
-              <pre className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Many valuations are for insurance purposes with most insurers
                 insisting on an update every two to four years.<br/>  Your insurance company may refuse to compensate you for the full
                 value of your precious jewellery and<br />gemstones if they have not
                 been professionally assessed.A claim for lost or stolen
                 jewellery <br /> is far more likely to be favourably processed if you
                 have a current valuation certificate.
-              </pre>
+              </p>
             </div>
         </section>
       </div>
