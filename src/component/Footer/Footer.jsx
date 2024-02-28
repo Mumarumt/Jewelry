@@ -98,7 +98,7 @@ export default function Footer() {
                   <li>
                     <Link
                       className="mr-5 hover:text-blue-800 hover:scale-110"
-                      to="/services/Valutaions"
+                      to="/services/val"
                     >VALUATIONS                    
                     </Link>
                   </li>
